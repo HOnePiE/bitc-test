@@ -1,0 +1,114 @@
+html {
+
+    color: #999;
+    background-image: linear-gradient(-45deg, rgba(131, 131, 131, 0.1),#333  ), url(/assets/images/bgr.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.Navbar h3,
+h6 {
+    color: rgb(113, 210, 113);
+}
+
+a {
+    text-decoration: none;
+    margin: 40px;
+
+}
+
+ul {
+    display: flex;
+
+    float: left;
+    list-style: none;
+}
+
+.Navbar {
+    display: flex;
+    margin: 40px;
+
+}
+
+.Navbar_List {
+    position: relative;
+    top: 20px;
+}
+
+.Form {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form_Title {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form_Button {
+    display: flex;
+    margin: 4px;
+}
+
+img {
+
+    width: 5%;
+}
+
+.Form_Input {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 50px;
+    margin: 10px;
+
+}
+
+.Form_Input-Email {
+    width: 95%;
+}
+
+.Form_Input-Password {
+    width: 95%;
+}
+
+button {
+    border-radius: 20px;
+    height: 40px;
+   
+    
+
+}
+.Button--CreateAcc{
+    
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(113, 210, 113);
+    margin-left:30px ;
+    
+}
+
+.Button--JoinGest {
+    border: none;
+    background-color: #999;
+    opacity: 0.8;
+    color:rgb(113, 210, 113) ;
+}
+
+
+input {
+    border-radius: 20px;
+    background-color: #333;
+    opacity:0.9;
+    border: none;
+    
+}
+
+.Navbar a {
+    color: #999;
+}
